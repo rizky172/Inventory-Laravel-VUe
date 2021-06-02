@@ -48,7 +48,7 @@ Route::group(["prefix"=>"/user"], function(){
     Route::post('/update', 'UserController@update');
     Route::post('/change', 'UserController@change');
 });
-
+// test
 
 Route::group(["prefix"=>"/kategori"], function(){
     Route::get('/table', 'KategoriController@table');
